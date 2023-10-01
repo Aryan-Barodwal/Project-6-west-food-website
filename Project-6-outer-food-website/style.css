@@ -1,0 +1,428 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    /* overflow-x: hidden;back */
+}
+
+/* navigation bar */
+
+nav {
+    box-shadow: 5px 5px 5px rgba(1, 1, 11, 0.05);
+    position: sticky;
+    top: 0;
+    margin-bottom: 40px;
+    background: white;
+    z-index: 2;
+
+
+}
+
+
+nav .container-logo {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 80px;
+    /* box-shadow: 5px 5px 5px rgba(1,1,11,0.05); */
+    padding: 2px 20px;
+    background-color: white;
+    z-index: 2;
+    /* background-size: cover; */
+    /* background-position: center; */
+
+
+
+
+}
+
+nav .container-logo .bar-logo {
+    margin: 19px 1px;
+}
+
+nav .container-logo .bar-logo img {
+    height: 40px;
+    width: 40px;
+}
+
+/* @media */
+
+
+@media (max-width:786px) {
+    nav {
+        display: flex;
+        align-items: center;
+
+    }
+
+
+    nav .bar-logo img {
+        display: none;
+
+    }
+
+}
+
+
+/* enjoy your west food  middle section*/
+/* hero section        */
+
+.delicious-west {
+    margin: 0 30px;
+}
+
+section.delicious-food {
+    display: flex;
+    justify-content: center;
+
+}
+
+section.delicious-food .food-west {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    line-height: 65px;
+  
+}
+
+.after-image-class .heading11 {
+    font-size: 34px;
+    font-weight: bolder;
+
+}
+
+.heading11 h1 {
+    content: "";
+
+}
+
+.after-image-class .heading11 h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 100px;
+    line-gap-override: 2px;
+    font-weight: bolder;
+    background-image: url(image/text-hover.jpg);
+    background-size: cover;
+    background-position: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: all 0.5s ease-in-out;
+    line-height: 120px;
+
+}
+
+.after-image-class .heading11 h1:hover {
+    font-family: 'Roboto', sans-serif;
+    font-size: 100px;
+    line-gap-override: 2px;
+    font-weight: bolder;
+    /* border: 2px solid red; */
+    background-image: url(image/wallpaperflare.com_wallpaper\ \(2\).jpg);
+    background-size: cover;
+    background-position: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+
+}
+
+.after-image-class .heading11 h1 span {
+    margin-top: 20px;
+}
+
+.after-image-class .heading11 h4 {
+    font-size: 30px;
+    border: 1px solid green;
+    padding: 0px 39px;
+    background-color: rgb(96, 174, 96);
+    color: white;
+    margin: 13px 12px;
+    transition: all 1s ease-in-out;
+}
+.after-image-class .heading11 h4:hover{
+    background-color: black;
+
+}
+
+.upper-heading{
+    width: 450px;
+    height: 111px;
+}
+
+.west-food-info {
+    font-size: 20px;
+    font-weight: lighter;
+    font-weight: 50;
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+.west-food-info p{
+    font-size: 35px;
+
+}
+
+section.delicious-food .food-west .after-image-class {
+    content: "";
+ 
+}
+
+
+.button-28 {
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid #1A1A1A;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #3B3B3B;
+    cursor: pointer;
+    display: inline-block;
+
+    font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    min-height: 60px;
+    min-width: 0;
+    outline: none;
+    padding: 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    /* width: 100%; */
+    will-change: transform;
+}
+
+.button-28:disabled {
+    pointer-events: none;
+}
+
+.button-28:hover {
+    color: #fff;
+    background-color: #1A1A1A;
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px; */
+    box-shadow: 20px 20px 20px rgba(1, 1, 11, 0.05);
+    transform: translateY(-2px);
+}
+
+.button-28:active {
+    box-shadow: 5px 4px 5px rgba(1, 1, 11, 0.05);
+    transform: translateY(0);
+}
+
+
+@media (max-width:786px) {
+    section.delicious-food .food-west {
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+    .image-class img {
+        height: 339px;
+        width: 342px;
+
+    }
+
+    .upper-heading {
+        display: block ;
+    }
+
+}
+
+/* niche vaala section of info */
+
+.container-for-images-and-texts {
+    margin: 0 100px;
+}
+
+
+.cont-para {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    margin-top: 90px;
+
+}
+
+.image_para-section {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    transition: all ease-in-out 1.5s;
+}
+
+.image_para-section:hover{
+    box-shadow: 3px 4px 5px rgb(123, 123, 123);
+
+}
+
+.cont-para .heading1 {
+    position: relative;
+    top: 20%;
+    padding: 0px 10px;
+}
+
+
+@media (max-width:786px) {
+    .cont-para {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+}
+
+
+/* menu class of upper */
+
+.our-menu-classs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.text-section-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.our-menu-class {
+    margin-top: 30px;
+    text-align: center;
+    /* display: inline; */
+    font-size: 30px;
+    border-radius: 10px;
+
+
+}
+
+
+.our-menu {
+    border: 2px solid green;
+    background-color: rgb(64, 122, 5);
+    border-radius: 10px;
+
+    color: #fff;
+    width: 214px;
+    height: 49px;
+   
+
+}
+
+
+/* .our-menu:hover {
+    background-color: cadetblue;
+} */
+
+
+/* grid menu */
+
+.section-of-grid {
+    /* margin-top: 20px; */
+    margin: 0 14px;
+
+    /* width: 200px;
+    margin: auto; */
+    display: flex;
+    justify-content: center;
+}
+
+
+/*  align grid elements */
+
+.grid-container {
+    display: grid;
+    gap: 5px;
+    grid-template-areas:
+        "I1 I1 I2 I3"
+        "I1 I1 I2 I7"
+        "I4 I5 I6 I7";
+
+}
+
+.grid-images {
+    border-radius: 20px;
+}
+
+.grid-images:hover {
+    transform: scale(1.03);
+    transition: all ease-in-out 0.8s;
+
+}
+
+
+.grid-item1 {
+    grid-area: I1;
+}
+
+.grid-item2 {
+    grid-area: I2;
+}
+
+.grid-item3 {
+    grid-area: I3;
+}
+
+.grid-item4 {
+    grid-area: I4;
+}
+
+.grid-item5 {
+    grid-area: I5;
+}
+
+.grid-item6 {
+    grid-area: I6;
+}
+
+.grid-item7 {
+    grid-area: I7;
+}
+
+/* footer section */
+
+div.footer-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    background-color: blanchedalmond;
+    font-size: 20px;
+    width: 100%;
+    height: 250px;
+    padding-top: 50px;
+    border-radius: 19px;
+
+}
+
+ul {
+    list-style: none;
+}
+
+.search-container-end {
+    width: 90px;
+    height: 40px;
+}
+
+.search-container-end input[type="text"] {
+    width: 180px;
+    height: 35px;
+
+}
+
+/* end section */
+
+img.img11 {
+    height: 65px;
+    width: 326px;
+    border-radius: 33px;
+
+}
